@@ -104,3 +104,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     phh-su
+
+# Symlink libion needed to gralloc.hi3660.so
+PRODUCT_PACKAGES += \
+    AospSymlinks
